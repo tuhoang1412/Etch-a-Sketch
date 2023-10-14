@@ -1,0 +1,17 @@
+.container {
+  display: grid;
+  grid-template-rows: auto;
+  gap: 1px;
+  width: 960px;
+  height: 960px;
+}
+
+.grid-cell {
+  border: 1px solid #ffa94d;
+  border-radius: 4px;
+  padding: 1em;
+  background-color: lightgray; /* Adjust the background color as needed */
+  box-sizing: border-box;
+  transition: background-color 0.2s;
+  min-width: 0;
+}
